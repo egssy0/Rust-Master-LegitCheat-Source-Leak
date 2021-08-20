@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{a7bcdbdd-64a5-47aa-8de6-9038258a69e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{87e20bbd-bb82-4c57-897c-c3f9fea93e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="others">
+      <UniqueIdentifier>{2969685c-dd06-41d8-9746-1b84d31e01d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="others\ImGui">
+      <UniqueIdentifier>{914ea402-c303-4f51-ae74-826859f98614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{c1d71e81-3d68-4bbc-9e5b-06bc55c47e86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\md5.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui_demo.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui_draw.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui_impl_dx9.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui_impl_win32.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui_tables.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="others\ImGui\imgui_widgets.cpp">
+      <Filter>others\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="termcolor.hpp">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\hwid.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\md5.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\options.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="remember.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstring.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imconfig.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imgui.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imgui_impl_dx9.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imgui_impl_win32.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imgui_internal.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imstb_rectpack.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imstb_textedit.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="others\ImGui\imstb_truetype.h">
+      <Filter>others\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\cheat.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="curl\libcurl_a.lib">
+      <Filter>curl</Filter>
+    </Library>
+    <Library Include="libcurl_a.lib" />
+  </ItemGroup>
+</Project>
